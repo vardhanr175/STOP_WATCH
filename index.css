@@ -1,0 +1,100 @@
+@media(max-width:480px){
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+     }
+     .timerBtn{
+         width:80%;
+         height: 30px;
+         border: 3px solid;
+         border-radius: 12px;
+         background-color: #333333;
+         color: white;
+         cursor: pointer;
+         font-family: cosolas, monospace;
+         display: block;
+         margin: auto;
+         margin-top: 8px;
+     }
+     #timeDisplay{
+         font-size: 75px;
+         color: #40c437;
+         font-family: consolas, monospace;
+         margin-bottom: 10px;
+     }
+     #timeContainer{
+         
+         text-align: center;
+         border:3px solid;
+         border-radius: 25px;
+         background-color: #222222;
+     }
+}
+@media(min-width:481px) and (max-width:768px){
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+     }
+     .timerBtn{
+         width:80px;
+         height: 30px;
+         border: 3px solid;
+         border-radius: 12px;
+         background-color: #333333;
+         color: white;
+         cursor: pointer;
+         font-family: cosolas, monospace;
+     }
+     #timeDisplay{
+         font-size: 75px;
+         color: #40c437;
+         font-family: consolas, monospace;
+         margin-bottom: 10px;
+     }
+     #timeContainer{
+         height: 150px;
+         width: 450px;
+         text-align: center;
+         border:3px solid;
+         border-radius: 25px;
+         background-color: #222222;
+     }
+}
+
+
+@media(min-width:769px){
+.container{
+   height: 100vh;
+   width: 100vw;
+   display: grid;
+   place-items: center;
+}
+.timerBtn{
+    width:80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: cosolas, monospace;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #40c437;
+    font-family: consolas, monospace;
+    margin-bottom: 10px;
+}
+#timeContainer{
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    border:3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
+}
